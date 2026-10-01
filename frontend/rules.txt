@@ -1,0 +1,7 @@
+Naayos ko na ang booking availability logic sa backend:
+
+Hindi puwedeng mag-book ng house na unavailable o available: false.
+Hindi puwedeng mag-double-book sa parehong dates.
+Hindi puwedeng i-set sa unavailable ang house habang may pending o confirmed booking.
+Kapag completed o cancelled na ang booking, puwede nang i-set ulit sa unavailable.
+Active na ang bagong rules sa Payload server.
